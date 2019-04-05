@@ -15,7 +15,7 @@ const favorites = (props) => {
 
     return (
         <div>
-            { showFavorites }
+            <span onClick={() => this.deleteFavorite()}>{showFavorites}</span>
         </div>
     )
 }
